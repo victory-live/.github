@@ -1,3 +1,3 @@
 # Victory Live
 
-Organization-wide github files and config
+Organization-wide GitHub files and config
