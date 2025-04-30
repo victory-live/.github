@@ -1,0 +1,27 @@
+Jira: [JIRA-TOKEN](https://ticketevolution.atlassian.net/browse/JIRA-TOKEN)
+
+> [!IMPORTANT]
+> Toggle to **Squash and Merge** when merging PRs to `staging` branch
+
+## What
+This PR adds/removes/fixes&hellip;
+
+## Testing
+
+I tested this code by (unit/integration/manual) testing&hellip;
+
+## Extras
+- [ ] Includes a DB migration
+- [ ] After merge, requires local environment changes like running `bin/build`, `.env` changes etc.
+- [ ] Includes UI Changes: add screenshots or videos
+
+_(if any are checked, please describe below)_
+
+## PR Code Coverage
+
+- Changeset: XX%
+- Overall: XX%
+
+Measure with `bin/test_cov` or some other means. You can find html coverage levels in `coverage/index.html` or in `stdout`.
+
+After a successful test run, you can also see calculated and merged coverage, per branch, on [Grafana](https://grafana.tevo.com/d/6r9OX0y7k/code-coverage?orgId=1)
