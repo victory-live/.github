@@ -27,4 +27,4 @@ jobs:
             - Performance considerations
 
             Be concise. Only comment on issues that matter.
-          claude_args: "--max-turns 10"
+          claude_args: "--max-turns 25"
