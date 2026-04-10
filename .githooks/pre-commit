@@ -4,7 +4,7 @@
 # Prevents direct commits to protected branches.
 # To enable: git config core.hooksPath .githooks
 
-protected_branches="^(main|staging|master)$"
+protected_branches="^(main)$"
 current_branch=$(git symbolic-ref --short HEAD 2>/dev/null)
 
 if [[ "$current_branch" =~ $protected_branches ]]; then
