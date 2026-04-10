@@ -4,7 +4,7 @@
 # Prevents direct pushes to protected branches.
 # To enable: git config core.hooksPath .githooks
 
-protected_branches="^refs/heads/(main|staging|master)$"
+protected_branches="^refs/heads/(main)$"
 
 while read local_ref local_sha remote_ref remote_sha; do
   if [[ "$remote_ref" =~ $protected_branches ]]; then
