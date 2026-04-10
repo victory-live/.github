@@ -11,7 +11,7 @@ chmod +x .githooks/pre-commit .githooks/pre-push
 ```
 
 This configures client-side hooks that prevent accidental commits and pushes
-to protected branches (`main`, `staging`, `master`).
+to protected branches (`main`, `main`).
 
 ## Workflow
 
