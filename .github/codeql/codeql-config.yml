@@ -4,13 +4,9 @@ disable-default-queries: false
 
 queries:
   - uses: security-extended  # keep the full default pack
+  - uses: ./.github/codeql/queries  # custom queries
 
 query-filters:
   # Exclude the built-in unpinned-tag rule — our custom one replaces it
   - exclude:
       id: actions/unpinned-tag
-
-  # Include our custom version
-  - include:
-      id: actions/unpinned-tag
-      query: .github/codeql/queries/unpinned-tag-custom.ql
